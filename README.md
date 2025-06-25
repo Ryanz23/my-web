@@ -4,10 +4,9 @@ This is my personal portfolio website.
 
 ## Features
 
-* **Responsive Design:** Works well on all devices.
-* **Modern Design:** Clean and visually appealing.
-* **Contact Form:**  Allows visitors to easily reach out.
-
+- **Responsive Design:** Works well on all devices.
+- **Modern Design:** Clean and visually appealing.
+- **Contact Form:** Allows visitors to easily reach out.
 
 ## Getting Started
 
@@ -21,6 +20,7 @@ This is my personal portfolio website.
    ```
 
 ## Technologies Used
+
 - HTML
 - TypeScript
 - Tailwind CSS
