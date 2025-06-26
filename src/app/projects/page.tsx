@@ -51,7 +51,7 @@ export default function Projects() {
               <a
                 href="https://cek-viral-try.vercel.app"
                 target="_blank"
-                className="inline-flex items-center justify-center bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl px-4 py-2 font-medium text-[14px] transition-all duration-300 text-white hover:scale-105 hover:backdrop-blur-sm hover:shadow-[0_0_0_1px_rgba(59,130,246,0.3),0_0_20px_rgba(59,130,246,0.2),0_0_20px_rgba(147,51,234,0.2)] active:scale-95"
+                className="inline-flex items-center justify-center bg-gradient-to-r from-blue-600 to-purple-600 rounded-md px-4 py-2 font-medium text-[14px] transition-all duration-300 text-white hover:scale-105 hover:backdrop-blur-sm hover:shadow-[0_0_0_1px_rgba(59,130,246,0.3),0_0_20px_rgba(59,130,246,0.2),0_0_20px_rgba(147,51,234,0.2)] active:scale-95"
               >
                 View Project
                 <span className="ml-1">
@@ -90,7 +90,7 @@ export default function Projects() {
               <a
                 href="https://story-web-app.netlify.app"
                 target="_blank"
-                className="inline-flex items-center justify-center bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl px-4 py-2 font-medium text-[14px] transition-all duration-300 text-white hover:scale-105 hover:backdrop-blur-sm hover:shadow-[0_0_0_1px_rgba(59,130,246,0.3),0_0_20px_rgba(59,130,246,0.2),0_0_20px_rgba(147,51,234,0.2)] active:scale-95"
+                className="inline-flex items-center justify-center bg-gradient-to-r from-blue-600 to-purple-600 rounded-md px-4 py-2 font-medium text-[14px] transition-all duration-300 text-white hover:scale-105 hover:backdrop-blur-sm hover:shadow-[0_0_0_1px_rgba(59,130,246,0.3),0_0_20px_rgba(59,130,246,0.2),0_0_20px_rgba(147,51,234,0.2)] active:scale-95"
               >
                 View Project
                 <span className="ml-1">
