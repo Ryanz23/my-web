@@ -22,8 +22,8 @@ export default function About() {
       <main className="container mx-auto px-6 py-24 relative z-10">
         <div className="max-w-5xl mx-auto">
           {/* About Me Header */}
-          <div className="text-4xl font-bold text-white pb-12">
-            <h1 className="font-extrabold text-[32px]">About Me</h1>
+          <div className="text-3xl font-bold text-white pb-12">
+            <h1 className="font-bold text-[32px]">About Me</h1>
             <div className="absolute bottom-2 top-0 mt-36 items-center w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></div>
           </div>
 
