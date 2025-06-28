@@ -81,16 +81,16 @@ const Header: React.FC<HeaderProps> = ({
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="md:hidden ml-auto">
             <button
               onClick={toggleMobileMenu}
-              className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white focus:outline-none transition-colors duration-300"
               aria-expanded="false"
             >
               <span className="sr-only">Open main menu</span>
               {/* Hamburger icon */}
               <svg
-                className={`${isMobileMenuOpen ? "hidden" : "block"} h-6 w-6`}
+                className={`${isMobileMenuOpen ? "opacity-0" : "opacity-100"} h-6 w-6 absolute transition-opacity duration-300`}
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -106,7 +106,7 @@ const Header: React.FC<HeaderProps> = ({
               </svg>
               {/* Close icon */}
               <svg
-                className={`${isMobileMenuOpen ? "block" : "hidden"} h-6 w-6`}
+                className={`${isMobileMenuOpen ? "opacity-100" : "opacity-0"} h-6 w-6 absolute transition-opacity duration-300`}
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -125,8 +125,8 @@ const Header: React.FC<HeaderProps> = ({
         </div>
 
         {/* Mobile Menu */}
-        <div className={`md:hidden ${isMobileMenuOpen ? "block" : "hidden"}`}>
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gray-50 rounded-md mt-2">
+        <div className={`md:hidden transition-all duration-300 ease-in-out overflow-hidden ${isMobileMenuOpen ? "max-h-screen" : "max-h-0"}`}>
+          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-transparent rounded-md mt-2">
             {menuItems.map((item, index) => (
               <div key={index}>
                 {item.isExternal ? (
@@ -142,10 +142,10 @@ const Header: React.FC<HeaderProps> = ({
                 ) : (
                   <Link
                     href={item.href}
-                    className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200 ${
+                    className={`block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 ${
                       isActiveLink(item.href)
-                        ? "text-blue-600 bg-blue-50"
-                        : "text-gray-600 hover:text-blue-600"
+                        ? "text-white"
+                        : "text-gray-400 hover:text-white"
                     }`}
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
