@@ -37,8 +37,8 @@ export default function Contact() {
         <div className="max-w-4xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-16">
-            <div className="relative text-4xl inline-block">
-              <h1 className="text-[32px] font-extrabold text-white mb-4">
+            <div className="relative text-3xl inline-block">
+              <h1 className="text-[32px] font-bold text-white mb-4">
                 Let&apos;s Connect
               </h1>
               <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></div>
