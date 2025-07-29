@@ -13,7 +13,7 @@ export default function Home() {
           {/* Header with enhanced typography */}
           <div className="mb-8 space-y-4">
             <div className="relative">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-black text-white leading-tight tracking-tight">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight tracking-tight">
                 Ariyan Andryan Aryja
               </h1>
               {/* Decorative line */}
